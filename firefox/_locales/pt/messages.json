@@ -1,0 +1,116 @@
+{
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "Digite sua URL aqui"
+  },
+  "utmSourceLabel": {
+    "message": "Fonte"
+  },
+  "utmSourcePlaceholder": {
+    "message": "ex.: google, facebook, newsletter"
+  },
+  "utmMediumLabel": {
+    "message": "Meio"
+  },
+  "utmMediumPlaceholder": {
+    "message": "ex.: cpc, banner, email"
+  },
+  "utmCampaignLabel": {
+    "message": "Campanha"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "ex.: summer_sale, product_launch"
+  },
+  "utmTermLabel": {
+    "message": "Termo"
+  },
+  "utmTermPlaceholder": {
+    "message": "ex.: running+shoes, marketing+software"
+  },
+  "utmContentLabel": {
+    "message": "Conteúdo"
+  },
+  "utmContentPlaceholder": {
+    "message": "ex.: logolink, textlink"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "ID de Clique do Google"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM Debug"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "Valor de Debug GTM"
+  },
+  "customParamLabel": {
+    "message": "Parâmetro Personalizado"
+  },
+  "customParamNamePlaceholder": {
+    "message": "Nome do parâmetro"
+  },
+  "customParamValuePlaceholder": {
+    "message": "Valor do parâmetro"
+  },
+  "addCustomParam": {
+    "message": "Adicionar Parâmetro Personalizado"
+  },
+  "generateButton": {
+    "message": "Gerar Link"
+  },
+  "copyButton": {
+    "message": "Copiar"
+  },
+  "copiedMessage": {
+    "message": "Copiado!"
+  },
+  "generatedLinkLabel": {
+    "message": "Link Gerado"
+  },
+  "historyTitle": {
+    "message": "Histórico"
+  },
+  "clearHistoryButton": {
+    "message": "Limpar Histórico"
+  },
+  "noHistoryMessage": {
+    "message": "Nenhum histórico ainda"
+  },
+  "settingsTitle": {
+    "message": "Configurações"
+  },
+  "languageLabel": {
+    "message": "Idioma"
+  },
+  "saveButton": {
+    "message": "Salvar"
+  },
+  "savedCustomParamsTitle": {
+    "message": "Parâmetros Personalizados Salvos"
+  },
+  "deleteButton": {
+    "message": "Excluir"
+  },
+  "invalidUrlMessage": {
+    "message": "Por favor, insira uma URL válida"
+  },
+  "exportHistoryButton": {
+    "message": "Exportar Histórico"
+  },
+  "directionality": {
+    "message": "ltr"
+  },
+  "lowercaseParamsLabel": {
+    "message": "Converter parâmetros para minúsculas"
+  },
+  "exportButton": {
+    "message": "Exportar Configurações"
+  },
+  "longUrlWarningMessage": {
+    "message": "Aviso: A URL é muito longa (acima de 255 caracteres). É recomendado usar um serviço de encurtamento de URL, como:"
+  }
+}

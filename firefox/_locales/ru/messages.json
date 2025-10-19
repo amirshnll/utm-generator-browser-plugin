@@ -1,0 +1,116 @@
+{
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "Введите ваш URL здесь"
+  },
+  "utmSourceLabel": {
+    "message": "Источник"
+  },
+  "utmSourcePlaceholder": {
+    "message": "напр., google, facebook, newsletter"
+  },
+  "utmMediumLabel": {
+    "message": "Канал"
+  },
+  "utmMediumPlaceholder": {
+    "message": "напр., cpc, banner, email"
+  },
+  "utmCampaignLabel": {
+    "message": "Кампания"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "напр., summer_sale, product_launch"
+  },
+  "utmTermLabel": {
+    "message": "Ключевое слово"
+  },
+  "utmTermPlaceholder": {
+    "message": "напр., running+shoes, marketing+software"
+  },
+  "utmContentLabel": {
+    "message": "Содержание"
+  },
+  "utmContentPlaceholder": {
+    "message": "напр., logolink, textlink"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "Google Click ID"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM Debug"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "Значение GTM Debug"
+  },
+  "customParamLabel": {
+    "message": "Пользовательский параметр"
+  },
+  "customParamNamePlaceholder": {
+    "message": "Имя параметра"
+  },
+  "customParamValuePlaceholder": {
+    "message": "Значение параметра"
+  },
+  "addCustomParam": {
+    "message": "Добавить пользовательский параметр"
+  },
+  "generateButton": {
+    "message": "Создать ссылку"
+  },
+  "copyButton": {
+    "message": "Копировать"
+  },
+  "copiedMessage": {
+    "message": "Скопировано!"
+  },
+  "generatedLinkLabel": {
+    "message": "Созданная ссылка"
+  },
+  "historyTitle": {
+    "message": "История"
+  },
+  "clearHistoryButton": {
+    "message": "Очистить историю"
+  },
+  "noHistoryMessage": {
+    "message": "История пуста"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "languageLabel": {
+    "message": "Язык"
+  },
+  "saveButton": {
+    "message": "Сохранить"
+  },
+  "savedCustomParamsTitle": {
+    "message": "Сохраненные пользовательские параметры"
+  },
+  "deleteButton": {
+    "message": "Удалить"
+  },
+  "invalidUrlMessage": {
+    "message": "Пожалуйста, введите корректный URL"
+  },
+  "exportHistoryButton": {
+    "message": "Экспорт истории"
+  },
+  "directionality": {
+    "message": "ltr"
+  },
+  "lowercaseParamsLabel": {
+    "message": "Преобразовать параметры в нижний регистр"
+  },
+  "exportButton": {
+    "message": "Экспорт настроек"
+  },
+  "longUrlWarningMessage": {
+    "message": "Внимание: URL слишком длинный (более 255 символов). Рекомендуется использовать сервис сокращения URL, например:"
+  }
+}

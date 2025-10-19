@@ -1,0 +1,116 @@
+{
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "Ange din URL här"
+  },
+  "utmSourceLabel": {
+    "message": "Källa"
+  },
+  "utmSourcePlaceholder": {
+    "message": "t.ex., google, facebook, newsletter"
+  },
+  "utmMediumLabel": {
+    "message": "Medium"
+  },
+  "utmMediumPlaceholder": {
+    "message": "t.ex., cpc, banner, email"
+  },
+  "utmCampaignLabel": {
+    "message": "Kampanj"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "t.ex., summer_sale, product_launch"
+  },
+  "utmTermLabel": {
+    "message": "Term"
+  },
+  "utmTermPlaceholder": {
+    "message": "t.ex., running+shoes, marketing+software"
+  },
+  "utmContentLabel": {
+    "message": "Innehåll"
+  },
+  "utmContentPlaceholder": {
+    "message": "t.ex., logolink, textlink"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "Google Klick-ID"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM Debug"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "GTM Debug-värde"
+  },
+  "customParamLabel": {
+    "message": "Anpassad Parameter"
+  },
+  "customParamNamePlaceholder": {
+    "message": "Parameternamn"
+  },
+  "customParamValuePlaceholder": {
+    "message": "Parametervärde"
+  },
+  "addCustomParam": {
+    "message": "Lägg till anpassad parameter"
+  },
+  "generateButton": {
+    "message": "Generera länk"
+  },
+  "copyButton": {
+    "message": "Kopiera"
+  },
+  "copiedMessage": {
+    "message": "Kopierad!"
+  },
+  "generatedLinkLabel": {
+    "message": "Genererad länk"
+  },
+  "historyTitle": {
+    "message": "Historik"
+  },
+  "clearHistoryButton": {
+    "message": "Rensa historik"
+  },
+  "noHistoryMessage": {
+    "message": "Ingen historik ännu"
+  },
+  "settingsTitle": {
+    "message": "Inställningar"
+  },
+  "languageLabel": {
+    "message": "Språk"
+  },
+  "saveButton": {
+    "message": "Spara"
+  },
+  "savedCustomParamsTitle": {
+    "message": "Sparade anpassade parametrar"
+  },
+  "deleteButton": {
+    "message": "Ta bort"
+  },
+  "invalidUrlMessage": {
+    "message": "Vänligen ange en giltig URL"
+  },
+  "exportHistoryButton": {
+    "message": "Exportera historik"
+  },
+  "directionality": {
+    "message": "ltr"
+  },
+  "lowercaseParamsLabel": {
+    "message": "Konvertera parametrar till gemener"
+  },
+  "exportButton": {
+    "message": "Exportera inställningar"
+  },
+  "longUrlWarningMessage": {
+    "message": "Varning: URL är för lång (över 255 tecken). Rekommenderas att använda en URL-kortare tjänst, t.ex:"
+  }
+}

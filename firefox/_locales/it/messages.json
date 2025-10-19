@@ -1,0 +1,116 @@
+{
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "Inserisci il tuo URL qui"
+  },
+  "utmSourceLabel": {
+    "message": "Fonte"
+  },
+  "utmSourcePlaceholder": {
+    "message": "es., google, facebook, newsletter"
+  },
+  "utmMediumLabel": {
+    "message": "Mezzo"
+  },
+  "utmMediumPlaceholder": {
+    "message": "es., cpc, banner, email"
+  },
+  "utmCampaignLabel": {
+    "message": "Campagna"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "es., summer_sale, product_launch"
+  },
+  "utmTermLabel": {
+    "message": "Termine"
+  },
+  "utmTermPlaceholder": {
+    "message": "es., running+shoes, marketing+software"
+  },
+  "utmContentLabel": {
+    "message": "Contenuto"
+  },
+  "utmContentPlaceholder": {
+    "message": "es., logolink, textlink"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "ID di Click Google"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM Debug"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "Valore GTM Debug"
+  },
+  "customParamLabel": {
+    "message": "Parametro Personalizzato"
+  },
+  "customParamNamePlaceholder": {
+    "message": "Nome parametro"
+  },
+  "customParamValuePlaceholder": {
+    "message": "Valore parametro"
+  },
+  "addCustomParam": {
+    "message": "Aggiungi Parametro Personalizzato"
+  },
+  "generateButton": {
+    "message": "Genera Link"
+  },
+  "copyButton": {
+    "message": "Copia"
+  },
+  "copiedMessage": {
+    "message": "Copiato!"
+  },
+  "generatedLinkLabel": {
+    "message": "Link Generato"
+  },
+  "historyTitle": {
+    "message": "Cronologia"
+  },
+  "clearHistoryButton": {
+    "message": "Cancella Cronologia"
+  },
+  "noHistoryMessage": {
+    "message": "Nessuna cronologia ancora"
+  },
+  "settingsTitle": {
+    "message": "Impostazioni"
+  },
+  "languageLabel": {
+    "message": "Lingua"
+  },
+  "saveButton": {
+    "message": "Salva"
+  },
+  "savedCustomParamsTitle": {
+    "message": "Parametri Personalizzati Salvati"
+  },
+  "deleteButton": {
+    "message": "Elimina"
+  },
+  "invalidUrlMessage": {
+    "message": "Per favore inserisci un URL valido"
+  },
+  "exportHistoryButton": {
+    "message": "Esporta Cronologia"
+  },
+  "directionality": {
+    "message": "ltr"
+  },
+  "lowercaseParamsLabel": {
+    "message": "Converti parametri in minuscolo"
+  },
+  "exportButton": {
+    "message": "Esporta Impostazioni"
+  },
+  "longUrlWarningMessage": {
+    "message": "Attenzione: L'URL è molto lungo (oltre 255 caratteri). È consigliabile utilizzare un servizio di riduzione di URL come:"
+  }
+}

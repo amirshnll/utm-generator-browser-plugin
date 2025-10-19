@@ -1,0 +1,116 @@
+{
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "এখানে আপনার URL লিখুন"
+  },
+  "utmSourceLabel": {
+    "message": "উৎস"
+  },
+  "utmSourcePlaceholder": {
+    "message": "যেমন: google, facebook, newsletter"
+  },
+  "utmMediumLabel": {
+    "message": "মাধ্যম"
+  },
+  "utmMediumPlaceholder": {
+    "message": "যেমন: cpc, banner, email"
+  },
+  "utmCampaignLabel": {
+    "message": "ক্যাম্পেইন"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "যেমন: summer_sale, product_launch"
+  },
+  "utmTermLabel": {
+    "message": "টার্ম"
+  },
+  "utmTermPlaceholder": {
+    "message": "যেমন: running+shoes, marketing+software"
+  },
+  "utmContentLabel": {
+    "message": "কন্টেন্ট"
+  },
+  "utmContentPlaceholder": {
+    "message": "যেমন: logolink, textlink"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "Google ক্লিক আইডি"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM ডিবাগ"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "GTM ডিবাগ মান"
+  },
+  "customParamLabel": {
+    "message": "কাস্টম প্যারামিটার"
+  },
+  "customParamNamePlaceholder": {
+    "message": "প্যারামিটার নাম"
+  },
+  "customParamValuePlaceholder": {
+    "message": "প্যারামিটার মান"
+  },
+  "addCustomParam": {
+    "message": "কাস্টম প্যারামিটার যোগ করুন"
+  },
+  "generateButton": {
+    "message": "লিঙ্ক তৈরি করুন"
+  },
+  "copyButton": {
+    "message": "কপি করুন"
+  },
+  "copiedMessage": {
+    "message": "কপি করা হয়েছে!"
+  },
+  "generatedLinkLabel": {
+    "message": "তৈরি করা লিঙ্ক"
+  },
+  "historyTitle": {
+    "message": "ইতিহাস"
+  },
+  "clearHistoryButton": {
+    "message": "ইতিহাস মুছুন"
+  },
+  "noHistoryMessage": {
+    "message": "এখনও কোন ইতিহাস নেই"
+  },
+  "settingsTitle": {
+    "message": "সেটিংস"
+  },
+  "languageLabel": {
+    "message": "ভাষা"
+  },
+  "saveButton": {
+    "message": "সংরক্ষণ করুন"
+  },
+  "savedCustomParamsTitle": {
+    "message": "সংরক্ষিত কাস্টম প্যারামিটার"
+  },
+  "deleteButton": {
+    "message": "মুছুন"
+  },
+  "invalidUrlMessage": {
+    "message": "অনুগ্রহ করে একটি বৈধ URL লিখুন"
+  },
+  "exportHistoryButton": {
+    "message": "ইতিহাস এক্সপোর্ট করুন"
+  },
+  "directionality": {
+    "message": "ltr"
+  },
+  "lowercaseParamsLabel": {
+    "message": "প্যারামিটারগুলিকে ছোট হাতের অক্ষরে রূপান্তর করুন"
+  },
+  "exportButton": {
+    "message": "সেটিংস এক্সপোর্ট করুন"
+  },
+  "longUrlWarningMessage": {
+    "message": "টি URL খুবই বেশি (255 অক্ষরের উপরে)। আপনি একটি URL সংক্ষিপ্তকরণ সার্ভিসের মতো:"
+  }
+}

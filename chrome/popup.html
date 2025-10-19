@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTM Link Generator</title>
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="title"><img src="images/icon32.png" alt="UTM Link Generator" class="logo"> UTM Link Generator</h1>
+      <div class="settings-icon" id="settingsButton">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+          <path
+            d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
+        </svg>
+      </div>
+    </header>
+
+    <main class="main">
+      <form id="utmForm">
+        <div class="form-group">
+          <label for="url" data-i18n="urlLabel"></label>
+          <div class="url-input-container">
+            <input type="text" id="url" class="input-field" data-i18n-placeholder="urlPlaceholder" required>
+            <button type="button" id="getCurrentUrlButton" class="button button-icon" title="Get current tab URL">
+              <svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 0 24 24" width="18">
+                <path
+                  d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z" />
+              </svg>
+            </button>
+          </div>
+          <div class="error-message" id="urlError" data-i18n="invalidUrlMessage"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="utmSource" data-i18n="utmSourceLabel"></label>
+          <input type="text" id="utmSource" class="input-field" data-i18n-placeholder="utmSourcePlaceholder">
+        </div>
+
+        <div class="form-group">
+          <label for="utmMedium" data-i18n="utmMediumLabel"></label>
+          <input type="text" id="utmMedium" class="input-field" data-i18n-placeholder="utmMediumPlaceholder">
+        </div>
+
+        <div class="form-group">
+          <label for="utmCampaign" data-i18n="utmCampaignLabel"></label>
+          <input type="text" id="utmCampaign" class="input-field" data-i18n-placeholder="utmCampaignPlaceholder">
+        </div>
+
+        <div class="form-group">
+          <label for="utmTerm" data-i18n="utmTermLabel"></label>
+          <input type="text" id="utmTerm" class="input-field" data-i18n-placeholder="utmTermPlaceholder">
+        </div>
+
+        <div class="form-group">
+          <label for="utmContent" data-i18n="utmContentLabel"></label>
+          <input type="text" id="utmContent" class="input-field" data-i18n-placeholder="utmContentPlaceholder">
+        </div>
+
+        <div class="form-group">
+          <label for="gclid" data-i18n="gclidLabel"></label>
+          <input type="text" id="gclid" class="input-field" data-i18n-placeholder="gclidPlaceholder">
+        </div>
+
+        <div class="form-group">
+          <label for="gtmDebug" data-i18n="gtmDebugLabel"></label>
+          <input type="text" id="gtmDebug" class="input-field" data-i18n-placeholder="gtmDebugPlaceholder">
+        </div>
+
+        <div id="customParamsContainer">
+          <!-- Custom parameters will be added here dynamically -->
+        </div>
+
+        <div class="form-group">
+          <button type="button" id="addCustomParamButton" class="button button-secondary"
+            data-i18n="addCustomParam"></button>
+        </div>
+
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="lowercaseParams" class="checkbox-input" checked>
+          &nbsp;<label for="lowercaseParams" class="checkbox-label" data-i18n="lowercaseParamsLabel"></label>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="generateButton" class="button button-primary" data-i18n="generateButton"></button>
+        </div>
+      </form>
+
+      <div class="result-container" id="resultContainer" style="display: none;">
+        <div class="form-group">
+          <label for="generatedLink" data-i18n="generatedLinkLabel"></label>
+          <div class="result-field-container">
+            <input type="text" id="generatedLink" class="input-field result-field" readonly>
+            <button type="button" id="copyButton" class="button button-icon copy-button"
+              data-i18n="copyButton"></button>
+          </div>
+          <div class="copied-message" id="copiedMessage" data-i18n="copiedMessage"></div>
+        </div>
+      </div>
+
+      <div class="history-container">
+        <h2 class="section-title" data-i18n="historyTitle"></h2>
+        <div class="history-actions">
+          <button type="button" id="exportHistoryButton" class="button button-secondary" data-i18n="exportHistoryButton"></button>
+          <button type="button" id="clearHistoryButton" class="button button-secondary"
+            data-i18n="clearHistoryButton"></button>
+        </div>
+        <div id="historyList" class="history-list">
+          <div class="no-history" id="noHistory" data-i18n="noHistoryMessage"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/popup.js"></script>
+</body>
+
+</html>

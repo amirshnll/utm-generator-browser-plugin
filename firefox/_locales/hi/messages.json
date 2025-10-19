@@ -1,0 +1,116 @@
+{
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "अपना URL यहां दर्ज करें"
+  },
+  "utmSourceLabel": {
+    "message": "स्रोत"
+  },
+  "utmSourcePlaceholder": {
+    "message": "उदाहरण: google, facebook, newsletter"
+  },
+  "utmMediumLabel": {
+    "message": "माध्यम"
+  },
+  "utmMediumPlaceholder": {
+    "message": "उदाहरण: cpc, banner, email"
+  },
+  "utmCampaignLabel": {
+    "message": "अभियान"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "उदाहरण: summer_sale, product_launch"
+  },
+  "utmTermLabel": {
+    "message": "शब्द"
+  },
+  "utmTermPlaceholder": {
+    "message": "उदाहरण: running+shoes, marketing+software"
+  },
+  "utmContentLabel": {
+    "message": "सामग्री"
+  },
+  "utmContentPlaceholder": {
+    "message": "उदाहरण: logolink, textlink"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "Google क्लिक ID"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM डीबग"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "GTM डीबग मान"
+  },
+  "customParamLabel": {
+    "message": "कस्टम पैरामीटर"
+  },
+  "customParamNamePlaceholder": {
+    "message": "पैरामीटर नाम"
+  },
+  "customParamValuePlaceholder": {
+    "message": "पैरामीटर मूल्य"
+  },
+  "addCustomParam": {
+    "message": "कस्टम पैरामीटर जोड़ें"
+  },
+  "generateButton": {
+    "message": "लिंक जनरेट करें"
+  },
+  "copyButton": {
+    "message": "कॉपी करें"
+  },
+  "copiedMessage": {
+    "message": "कॉपी किया गया!"
+  },
+  "generatedLinkLabel": {
+    "message": "जनरेट किया गया लिंक"
+  },
+  "historyTitle": {
+    "message": "इतिहास"
+  },
+  "clearHistoryButton": {
+    "message": "इतिहास साफ़ करें"
+  },
+  "noHistoryMessage": {
+    "message": "अभी तक कोई इतिहास नहीं"
+  },
+  "settingsTitle": {
+    "message": "सेटिंग्स"
+  },
+  "languageLabel": {
+    "message": "भाषा"
+  },
+  "saveButton": {
+    "message": "सहेजें"
+  },
+  "savedCustomParamsTitle": {
+    "message": "सहेजे गए कस्टम पैरामीटर"
+  },
+  "deleteButton": {
+    "message": "हटाएं"
+  },
+  "invalidUrlMessage": {
+    "message": "कृपया एक वैध URL दर्ज करें"
+  },
+  "exportHistoryButton": {
+    "message": "इतिहास निर्यात करें"
+  },
+  "directionality": {
+    "message": "ltr"
+  },
+  "lowercaseParamsLabel": {
+    "message": "पैरामीटर को लोअरकेस में बदलें"
+  },
+  "exportButton": {
+    "message": "सेटिंग्स निर्यात करें"
+  },
+  "longUrlWarningMessage": {
+    "message": "यह URL बहुत लंबा है (255 वर्णों से अधिक)। कृपया किसी URL शॉर्टनर सेवा का उपयोग करें, जैसे:"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "اپنا URL یہاں درج کریں"
+  },
+  "utmSourceLabel": {
+    "message": "ذریعہ"
+  },
+  "utmSourcePlaceholder": {
+    "message": "مثال: google, facebook, newsletter"
+  },
+  "utmMediumLabel": {
+    "message": "میڈیم"
+  },
+  "utmMediumPlaceholder": {
+    "message": "مثال: cpc, banner, email"
+  },
+  "utmCampaignLabel": {
+    "message": "مہم"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "مثال: summer_sale, product_launch"
+  },
+  "utmTermLabel": {
+    "message": "اصطلاح"
+  },
+  "utmTermPlaceholder": {
+    "message": "مثال: running+shoes, marketing+software"
+  },
+  "utmContentLabel": {
+    "message": "مواد"
+  },
+  "utmContentPlaceholder": {
+    "message": "مثال: logolink, textlink"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "گوگل کلک آئی ڈی"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM ڈیبگ"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "GTM ڈیبگ قیمت"
+  },
+  "customParamLabel": {
+    "message": "حسب ضرورت پیرامیٹر"
+  },
+  "customParamNamePlaceholder": {
+    "message": "پیرامیٹر کا نام"
+  },
+  "customParamValuePlaceholder": {
+    "message": "پیرامیٹر کی قیمت"
+  },
+  "addCustomParam": {
+    "message": "حسب ضرورت پیرامیٹر شامل کریں"
+  },
+  "generateButton": {
+    "message": "لنک بنائیں"
+  },
+  "copyButton": {
+    "message": "کاپی کریں"
+  },
+  "copiedMessage": {
+    "message": "کاپی ہو گیا!"
+  },
+  "generatedLinkLabel": {
+    "message": "تیار کردہ لنک"
+  },
+  "historyTitle": {
+    "message": "تاریخ"
+  },
+  "clearHistoryButton": {
+    "message": "تاریخ صاف کریں"
+  },
+  "noHistoryMessage": {
+    "message": "ابھی تک کوئی تاریخ نہیں"
+  },
+  "settingsTitle": {
+    "message": "ترتیبات"
+  },
+  "languageLabel": {
+    "message": "زبان"
+  },
+  "saveButton": {
+    "message": "محفوظ کریں"
+  },
+  "savedCustomParamsTitle": {
+    "message": "محفوظ شدہ حسب ضرورت پیرامیٹرز"
+  },
+  "deleteButton": {
+    "message": "حذف کریں"
+  },
+  "invalidUrlMessage": {
+    "message": "براہ کرم درست URL درج کریں"
+  },
+  "exportHistoryButton": {
+    "message": "تاریخ برآمد کریں"
+  },
+  "directionality": {
+    "message": "rtl"
+  },
+  "lowercaseParamsLabel": {
+    "message": "پیرامیٹرز کو چھوٹے حروف میں تبدیل کریں"
+  },
+  "exportButton": {
+    "message": "ترتیبات برآمد کریں"
+  },
+  "longUrlWarningMessage": {
+    "message": "ئے یو آر ال بسیار طولانی ہے (255 کاراکٹر سے زیادہ)۔ یو آر ال کوتاه کریں کے لیے یو آر ال کوتاه کریں سروس کو استعمال کریں, مثال:"
+  }
+}

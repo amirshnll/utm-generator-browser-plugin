@@ -1,0 +1,131 @@
+{
+  "urlLabel": {
+    "message": "الرابط"
+  },
+  "urlPlaceholder": {
+    "message": "أدخل الرابط هنا"
+  },
+  "utmSourceLabel": {
+    "message": "المصدر"
+  },
+  "utmSourcePlaceholder": {
+    "message": "مثال: جوجل، فيسبوك، نشرة إخبارية"
+  },
+  "utmMediumLabel": {
+    "message": "الوسيط"
+  },
+  "utmMediumPlaceholder": {
+    "message": "مثال: cpc، بانر، بريد إلكتروني"
+  },
+  "utmCampaignLabel": {
+    "message": "الحملة"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "مثال: تخفيضات_الصيف، إطلاق_منتج"
+  },
+  "utmTermLabel": {
+    "message": "المصطلح"
+  },
+  "utmTermPlaceholder": {
+    "message": "مثال: أحذية+رياضية، برمجيات+تسويق"
+  },
+  "utmContentLabel": {
+    "message": "المحتوى"
+  },
+  "utmContentPlaceholder": {
+    "message": "مثال: رابط_الشعار، رابط_النص"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "معرف نقرات جوجل"
+  },
+  "gtmDebugLabel": {
+    "message": "تصحيح GTM"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "قيمة تصحيح GTM"
+  },
+  "customParamLabel": {
+    "message": "معلمة مخصصة"
+  },
+  "customParamNamePlaceholder": {
+    "message": "اسم المعلمة"
+  },
+  "customParamValuePlaceholder": {
+    "message": "قيمة المعلمة"
+  },
+  "addCustomParam": {
+    "message": "إضافة معلمة مخصصة"
+  },
+  "generateButton": {
+    "message": "إنشاء الرابط"
+  },
+  "copyButton": {
+    "message": "نسخ"
+  },
+  "copiedMessage": {
+    "message": "تم النسخ!"
+  },
+  "generatedLinkLabel": {
+    "message": "الرابط المنشأ"
+  },
+  "historyTitle": {
+    "message": "السجل"
+  },
+  "clearHistoryButton": {
+    "message": "مسح السجل"
+  },
+  "noHistoryMessage": {
+    "message": "لا يوجد سجل بعد"
+  },
+  "settingsTitle": {
+    "message": "الإعدادات"
+  },
+  "languageLabel": {
+    "message": "اللغة"
+  },
+  "saveButton": {
+    "message": "حفظ"
+  },
+  "savedCustomParamsTitle": {
+    "message": "المعلمات المخصصة المحفوظة"
+  },
+  "getCurrentUrlButton": {
+    "message": "استخدام الصفحة الحالية"
+  },
+  "lowercaseParamsLabel": {
+    "message": "تحويل المعلمات إلى أحرف صغيرة"
+  },
+  "exportHistoryButton": {
+    "message": "تصدير السجل"
+  },
+  "exportAsJSON": {
+    "message": "تصدير كـ JSON"
+  },
+  "exportAsCSV": {
+    "message": "تصدير كـ CSV"
+  },
+  "longUrlWarning": {
+    "message": "تنبيه: الرابط طويل جدًا (أكثر من 2000 حرف). قد ترغب في استخدام خدمة تقصير الروابط مثل:"
+  },
+  "editButton": {
+    "message": "تعديل"
+  },
+  "deleteButton": {
+    "message": "حذف"
+  },
+  "invalidUrlMessage": {
+    "message": "الرجاء إدخال رابط صحيح"
+  },
+  "directionality": {
+    "message": "rtl"
+  },
+  "exportButton": {
+    "message": "تصدير الإعدادات"
+  },
+  "longUrlWarningMessage": {
+    "message": "تنبيه: الرابط طويل جدًا (أكثر من 255 حرف). قد ترغب في استخدام خدمة تقصير الروابط مثل:"
+  }
+}

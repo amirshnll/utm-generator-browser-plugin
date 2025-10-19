@@ -1,0 +1,116 @@
+{
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "在此输入您的URL"
+  },
+  "utmSourceLabel": {
+    "message": "来源"
+  },
+  "utmSourcePlaceholder": {
+    "message": "例如：google, facebook, newsletter"
+  },
+  "utmMediumLabel": {
+    "message": "媒介"
+  },
+  "utmMediumPlaceholder": {
+    "message": "例如：cpc, banner, email"
+  },
+  "utmCampaignLabel": {
+    "message": "活动"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "例如：summer_sale, product_launch"
+  },
+  "utmTermLabel": {
+    "message": "关键词"
+  },
+  "utmTermPlaceholder": {
+    "message": "例如：running+shoes, marketing+software"
+  },
+  "utmContentLabel": {
+    "message": "内容"
+  },
+  "utmContentPlaceholder": {
+    "message": "例如：logolink, textlink"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "Google点击ID"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM调试"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "GTM调试值"
+  },
+  "customParamLabel": {
+    "message": "自定义参数"
+  },
+  "customParamNamePlaceholder": {
+    "message": "参数名称"
+  },
+  "customParamValuePlaceholder": {
+    "message": "参数值"
+  },
+  "addCustomParam": {
+    "message": "添加自定义参数"
+  },
+  "generateButton": {
+    "message": "生成链接"
+  },
+  "copyButton": {
+    "message": "复制"
+  },
+  "copiedMessage": {
+    "message": "已复制！"
+  },
+  "generatedLinkLabel": {
+    "message": "生成的链接"
+  },
+  "historyTitle": {
+    "message": "历史记录"
+  },
+  "clearHistoryButton": {
+    "message": "清除历史记录"
+  },
+  "noHistoryMessage": {
+    "message": "暂无历史记录"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "languageLabel": {
+    "message": "语言"
+  },
+  "saveButton": {
+    "message": "保存"
+  },
+  "savedCustomParamsTitle": {
+    "message": "已保存的自定义参数"
+  },
+  "deleteButton": {
+    "message": "删除"
+  },
+  "invalidUrlMessage": {
+    "message": "请输入有效的URL"
+  },
+  "exportHistoryButton": {
+    "message": "导出历史记录"
+  },
+  "directionality": {
+    "message": "ltr"
+  },
+  "lowercaseParamsLabel": {
+    "message": "将参数转换为小写"
+  },
+  "exportButton": {
+    "message": "导出设置"
+  },
+  "longUrlWarningMessage": {
+    "message": "注意：URL太长（超过255个字符）。建议使用URL缩短服务，例如："
+  }
+}

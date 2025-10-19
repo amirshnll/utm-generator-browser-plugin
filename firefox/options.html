@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTM Link Generator - Settings</title>
+  <link rel="stylesheet" href="css/options.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="images/icon32.png" alt="UTM Link Generator" class="logo">
+      <h1 class="title" data-i18n="settingsTitle"></h1>
+    </header>
+
+    <main class="main">
+      <div class="settings-section">
+        <div class="form-group">
+          <label for="language" data-i18n="languageLabel"></label>
+          <select id="language" class="select-field">
+            <option value="en">English</option>
+            <option value="fa">فارسی</option>
+            <option value="ar">العربية</option>
+            <option value="ur">اردو</option>
+            <option value="zh">中文</option>
+            <option value="hi">हिन्दी</option>
+            <option value="bn">বাংলা</option>
+            <option value="ko">한국어</option>
+            <option value="es">Español</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="pt">Português</option>
+            <option value="ru">Русский</option>
+            <option value="it">Italiano</option>
+            <option value="sv">Svenska</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <button type="button" id="saveButton" class="button button-primary" data-i18n="saveButton"></button>
+          <button type="button" id="exportButton" class="button button-secondary" data-i18n="exportButton"></button>
+        </div>
+      </div>
+
+      <div class="custom-params-section">
+        <h2 class="section-title" data-i18n="savedCustomParamsTitle"></h2>
+
+        <div class="form-group">
+          <label for="customParamName" data-i18n="customParamLabel"></label>
+          <div class="custom-param-inputs">
+            <input type="text" id="customParamName" class="input-field"
+              data-i18n-placeholder="customParamNamePlaceholder">
+            <input type="text" id="customParamValue" class="input-field"
+              data-i18n-placeholder="customParamValuePlaceholder">
+            <button type="button" id="addCustomParamButton" class="button button-secondary"
+              data-i18n="addCustomParam"></button>
+          </div>
+        </div>
+
+        <div id="savedCustomParams" class="saved-custom-params">
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>UTM Link Generator v1.0.0 &copy; <span id="currentYear"></span></p>
+      <p><a href="https://github.com/amirshnll/utm-generator-browser-plugin" target="_blank"
+          rel="noopener noreferrer nofollow">GitHub
+          Repository</a> | <a href="https://github.com/amirshnll/utm-generator-browser-plugin/issues" target="_blank"
+          rel="noopener noreferrer nofollow">Report Bug</a> | <a href="https://ashokri.com/donate/"
+          target="_blank">Donate</a></p>
+    </footer>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/options.js"></script>
+</body>
+
+</html>

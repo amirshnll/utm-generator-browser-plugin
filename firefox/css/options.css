@@ -1,0 +1,343 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('../fonts/webfonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('../fonts/webfonts/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('../fonts/webfonts/Vazirmatn-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary-color: #14a9ff;
+  --primary-dark: #0077cc;
+  --primary-light: #7fd4ff;
+  --secondary-color: #14a9ff;
+  --secondary-dark: #0077cc;
+  --error-color: #b00020;
+  --background-color: #ffffff;
+  --surface-color: #ffffff;
+  --on-primary: #ffffff;
+  --on-secondary: #000000;
+  --on-background: #000000;
+  --on-surface: #000000;
+  --on-error: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+
+  writing-mode: horizontal-tb;
+  direction: ltr;
+  text-orientation: mixed;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+body[dir="rtl"],
+body[dir="rtl"] input,
+body[dir="rtl"] select,
+body[dir="rtl"] button {
+  font-family: 'Vazirmatn', 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right
+}
+
+body[dir="rtl"] .delete-param,
+body[dir="rtl"] .copy-button,
+body[dir="rtl"] button,
+.footer p {
+  text-align: center !important
+}
+
+body[dir="rtl"] button svg {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--on-background);
+  background-color: var(--background-color);
+  padding: 24px;
+  width: 100%;
+  margin: 0 auto
+}
+
+.container {
+  padding: 16px;
+  background-color: var(--surface-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px var(--shadow-color)
+}
+
+.header {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #0000001a;
+  display: flex;
+  align-items: center;
+  gap: 12px
+}
+
+.logo {
+  vertical-align: middle
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin: 0
+}
+
+.form-group {
+  margin-bottom: 24px
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color .3s
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 1px var(--primary-color)
+}
+
+.select-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: var(--background-color);
+  transition: border-color .3s
+}
+
+.select-field:focus {
+  outline: none;
+  border-color: var(--primary-color)
+}
+
+.button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow .3s;
+  text-transform: uppercase;
+  letter-spacing: .5px
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+  color: var(--on-primary)
+}
+
+.button-primary:hover {
+  background-color: var(--primary-dark);
+  box-shadow: 0 2px 4px var(--shadow-color)
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color)
+}
+
+.button-secondary:hover {
+  background-color: #6200ee0a
+}
+
+.button-danger {
+  background-color: var(--error-color);
+  color: var(--on-error)
+}
+
+.button-danger:hover {
+  background-color: #d32f2f
+}
+
+.settings-section {
+  margin-bottom: 32px
+}
+
+.custom-params-section {
+  padding-top: 24px;
+  border-top: 1px solid #0000001a
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--primary-color)
+}
+
+.custom-param-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 8px;
+  margin-bottom: 16px
+}
+
+body[dir="rtl"] .custom-param-inputs {
+  direction: rtl
+}
+
+.custom-param-inputs .input-field {
+  width: 100%
+}
+
+.saved-custom-params {
+  margin-top: 16px;
+  display: table;
+  width: 100%;
+  border-collapse: collapse
+}
+
+.custom-param-item {
+  display: table-row;
+  border-bottom: 1px solid #0000001a
+}
+
+.custom-param-item span {
+  display: table-cell;
+  padding: 12px;
+  vertical-align: middle
+}
+
+body[dir="rtl"] .custom-param-item {
+  direction: rtl
+}
+
+.param-name {
+  font-weight: 500;
+  margin-right: 8px
+}
+
+body[dir="rtl"] .param-name {
+  margin-right: 0;
+  margin-left: 8px
+}
+
+.param-value {
+  color: #0009;
+  flex-grow: 1
+}
+
+.delete-button {
+  background-color: transparent;
+  color: var(--error-color);
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 14px;
+  transition: background-color .3s;
+  border-radius: 4px
+}
+
+.delete-button:hover {
+  background-color: #b000200a
+}
+
+.delete-param {
+  background-color: var(--error-color);
+  color: var(--on-error);
+  min-width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 5px
+}
+
+.delete-param:hover {
+  background-color: #d32f2f
+}
+
+.success-message {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  display: none
+}
+
+.success-message.visible {
+  display: block
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #efefef;
+  text-align: center;
+  font-size: 14px;
+  color: #666
+}
+
+.footer p {
+  margin-bottom: 8px
+}
+
+.footer a {
+  color: var(--primary-color);
+  text-decoration: none
+}
+
+.footer a:hover {
+  text-decoration: underline
+}
+
+::-webkit-scrollbar {
+  width: 8px
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555
+}

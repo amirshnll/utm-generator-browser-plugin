@@ -1,0 +1,116 @@
+{
+  "urlLabel": {
+    "message": "URL"
+  },
+  "urlPlaceholder": {
+    "message": "URL을 여기에 입력하세요"
+  },
+  "utmSourceLabel": {
+    "message": "소스"
+  },
+  "utmSourcePlaceholder": {
+    "message": "예: google, facebook, newsletter"
+  },
+  "utmMediumLabel": {
+    "message": "매체"
+  },
+  "utmMediumPlaceholder": {
+    "message": "예: cpc, banner, email"
+  },
+  "utmCampaignLabel": {
+    "message": "캠페인"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "예: summer_sale, product_launch"
+  },
+  "utmTermLabel": {
+    "message": "검색어"
+  },
+  "utmTermPlaceholder": {
+    "message": "예: running+shoes, marketing+software"
+  },
+  "utmContentLabel": {
+    "message": "콘텐츠"
+  },
+  "utmContentPlaceholder": {
+    "message": "예: logolink, textlink"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "Google 클릭 ID"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM 디버그"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "GTM 디버그 값"
+  },
+  "exportButton": {
+    "message": "설정 내보내기"
+  },
+  "customParamLabel": {
+    "message": "사용자 정의 매개변수"
+  },
+  "customParamNamePlaceholder": {
+    "message": "매개변수 이름"
+  },
+  "customParamValuePlaceholder": {
+    "message": "매개변수 값"
+  },
+  "addCustomParam": {
+    "message": "사용자 정의 매개변수 추가"
+  },
+  "generateButton": {
+    "message": "링크 생성"
+  },
+  "copyButton": {
+    "message": "복사"
+  },
+  "copiedMessage": {
+    "message": "복사됨!"
+  },
+  "generatedLinkLabel": {
+    "message": "생성된 링크"
+  },
+  "historyTitle": {
+    "message": "기록"
+  },
+  "clearHistoryButton": {
+    "message": "기록 지우기"
+  },
+  "noHistoryMessage": {
+    "message": "아직 기록이 없습니다"
+  },
+  "settingsTitle": {
+    "message": "설정"
+  },
+  "languageLabel": {
+    "message": "언어"
+  },
+  "saveButton": {
+    "message": "저장"
+  },
+  "savedCustomParamsTitle": {
+    "message": "저장된 사용자 정의 매개변수"
+  },
+  "deleteButton": {
+    "message": "삭제"
+  },
+  "invalidUrlMessage": {
+    "message": "유효한 URL을 입력해주세요"
+  },
+  "exportHistoryButton": {
+    "message": "기록 내보내기"
+  },
+  "directionality": {
+    "message": "ltr"
+  },
+  "lowercaseParamsLabel": {
+    "message": "매개변수를 소문자로 변환"
+  },
+  "longUrlWarningMessage": {
+    "message": "이 URL이 매우 길어요 (255자를 초과합니다). URL을 줄이기 위해 URL 줄이기 서비스를 사용하세요, 예:"
+  }
+}

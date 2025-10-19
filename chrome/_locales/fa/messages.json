@@ -1,0 +1,131 @@
+{
+  "urlLabel": {
+    "message": "آدرس"
+  },
+  "urlPlaceholder": {
+    "message": "آدرس خود را وارد کنید"
+  },
+  "utmSourceLabel": {
+    "message": "منبع"
+  },
+  "utmSourcePlaceholder": {
+    "message": "مثال: گوگل، فیسبوک، خبرنامه"
+  },
+  "utmMediumLabel": {
+    "message": "رسانه"
+  },
+  "utmMediumPlaceholder": {
+    "message": "مثال: cpc، بنر، ایمیل"
+  },
+  "utmCampaignLabel": {
+    "message": "کمپین"
+  },
+  "utmCampaignPlaceholder": {
+    "message": "مثال: فروش_تابستانه، معرفی_محصول"
+  },
+  "utmTermLabel": {
+    "message": "عبارت"
+  },
+  "utmTermPlaceholder": {
+    "message": "مثال: کفش+ورزشی، نرم‌افزار+بازاریابی"
+  },
+  "utmContentLabel": {
+    "message": "محتوا"
+  },
+  "utmContentPlaceholder": {
+    "message": "مثال: لینک_لوگو، لینک_متن"
+  },
+  "gclidLabel": {
+    "message": "GCLID"
+  },
+  "gclidPlaceholder": {
+    "message": "شناسه کلیک گوگل"
+  },
+  "gtmDebugLabel": {
+    "message": "GTM دیباگ"
+  },
+  "gtmDebugPlaceholder": {
+    "message": "مقدار GTM دیباگ"
+  },
+  "customParamLabel": {
+    "message": "پارامتر سفارشی"
+  },
+  "customParamNamePlaceholder": {
+    "message": "نام پارامتر"
+  },
+  "customParamValuePlaceholder": {
+    "message": "مقدار پارامتر"
+  },
+  "addCustomParam": {
+    "message": "افزودن پارامتر سفارشی"
+  },
+  "generateButton": {
+    "message": "تولید لینک"
+  },
+  "copyButton": {
+    "message": "کپی"
+  },
+  "copiedMessage": {
+    "message": "کپی شد!"
+  },
+  "generatedLinkLabel": {
+    "message": "لینک تولید شده"
+  },
+  "historyTitle": {
+    "message": "تاریخچه"
+  },
+  "clearHistoryButton": {
+    "message": "پاک کردن تاریخچه"
+  },
+  "noHistoryMessage": {
+    "message": "هنوز تاریخچه‌ای وجود ندارد"
+  },
+  "settingsTitle": {
+    "message": "تنظیمات"
+  },
+  "languageLabel": {
+    "message": "زبان"
+  },
+  "saveButton": {
+    "message": "ذخیره"
+  },
+  "savedCustomParamsTitle": {
+    "message": "پارامترهای سفارشی ذخیره شده"
+  },
+  "getCurrentUrlButton": {
+    "message": "استفاده از صفحه فعلی"
+  },
+  "lowercaseParamsLabel": {
+    "message": "تبدیل پارامترها به حروف کوچک"
+  },
+  "exportHistoryButton": {
+    "message": "خروجی تاریخچه"
+  },
+  "exportAsJSON": {
+    "message": "خروجی JSON"
+  },
+  "exportAsCSV": {
+    "message": "خروجی CSV"
+  },
+  "longUrlWarning": {
+    "message": "هشدار: لینک بسیار طولانی است (بیش از 2000 کاراکتر). بهتر است از سرویس کوتاه‌کننده لینک استفاده کنید مانند:"
+  },
+  "editButton": {
+    "message": "ویرایش"
+  },
+  "deleteButton": {
+    "message": "حذف"
+  },
+  "invalidUrlMessage": {
+    "message": "لطفاً یک آدرس معتبر وارد کنید"
+  },
+  "directionality": {
+    "message": "rtl"
+  },
+  "exportButton": {
+    "message": "خروجی تنظیمات"
+  },
+  "longUrlWarningMessage": {
+    "message": "هشدار: لینک بسیار طولانی است (بیش از 2000 کاراکتر). بهتر است از سرویس کوتاه‌کننده لینک استفاده کنید مانند:"
+  }
+}
