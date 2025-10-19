@@ -19,6 +19,11 @@
       "128": "images/icon128.png"
     }
   },
+  "data_collection_permissions": {
+    "usage_statistics": false,
+    "crash_reports": false,
+    "personalized_ads": false
+  },
   "permissions": [
     "storage",
     "tabs",
