@@ -16,7 +16,7 @@ A browser extension that helps you create and manage UTM tracking links easily f
 ## Installation
 
 ### Chrome
-1. Download the extension from the [Chrome Web Store](#).
+1. Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/utm-link-generator/hhbafjlkfaohmlhoicmgllabgccbpmga).
 2. Click "Add to Chrome".
 3. The UTM Link Generator icon will appear in your browser toolbar.
 
