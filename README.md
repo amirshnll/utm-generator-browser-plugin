@@ -21,7 +21,7 @@ A browser extension that helps you create and manage UTM tracking links easily f
 3. The UTM Link Generator icon will appear in your browser toolbar.
 
 ### Firefox
-1. Download the add-on from [Firefox Add-ons](#).
+1. Download the add-on from [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/utm-link-generator/).
 2. Click "Add to Firefox".
 3. The UTM Link Generator icon will appear in your browser toolbar.
 
