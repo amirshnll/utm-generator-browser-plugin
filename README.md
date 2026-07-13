@@ -13,6 +13,12 @@ A browser extension that helps you create and manage UTM tracking links easily f
 - Dark mode support.
 - Available for Chrome and Firefox browsers.
 
+## Project Structure
+
+- `src/`: shared extension source for all supported browsers
+- `manifests/firefox.json`: Firefox-specific manifest used during release
+- `release.sh`: builds release zip files from the shared source
+
 ## Installation
 
 ### Chrome
@@ -24,6 +30,19 @@ A browser extension that helps you create and manage UTM tracking links easily f
 1. Download the add-on from [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/utm-link-generator/).
 2. Click "Add to Firefox".
 3. The UTM Link Generator icon will appear in your browser toolbar.
+
+## Build Release
+
+Run:
+
+```bash
+./release.sh
+```
+
+This creates:
+
+- `dist/utm-chromium.zip` for Chrome and Edge
+- `dist/utm-firefox.zip` for Firefox
 
 ## How to Use
 

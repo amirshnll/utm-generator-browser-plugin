@@ -18,3 +18,5 @@ yarn-error.log*
 *.crt
 *.env
 .git/
+dist/*
+!dist/.gitkeep
